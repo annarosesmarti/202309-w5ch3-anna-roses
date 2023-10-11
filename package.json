@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app/index.js",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "start": "node .",
-    "start:dev": "node . --watch"
+    "start:dev": "node --watch app/index.js"
   },
   "keywords": [],
   "author": "",
