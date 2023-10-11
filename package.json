@@ -2,10 +2,11 @@
   "name": "w5-ch3-classes-got",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "node .",
+    "start:dev": "node . --watch"
   },
   "keywords": [],
   "author": "",
