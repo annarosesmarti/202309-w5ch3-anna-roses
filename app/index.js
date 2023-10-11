@@ -1,5 +1,5 @@
-import Character from "./Character/Character.js";
+import King from "./King/King.js";
 
-const Tyrion = new Character("Tyrion");
+const Tyrion = new King("Tyrion");
 
-console.log(Tyrion);
+console.log(Tyrion.communication());

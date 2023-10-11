@@ -13,7 +13,7 @@ class Character {
     this.isAlive = false;
   }
 
-  comunication() {
+  communication() {
     return `I'm ${this.name} from ${this.name}'s family`;
   }
 }
