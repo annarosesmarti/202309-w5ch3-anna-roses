@@ -2,10 +2,15 @@ class Character {
   name;
   family;
   age;
-  filmSeries;
+  isAlive = true;
+  filmSeries = "Game of Thrones";
 
   constructor(characterName) {
     this.name = characterName;
+  }
+
+  die() {
+    this.isAlive = false;
   }
 }
 
